@@ -21,8 +21,4 @@ class GetRequester
       person
     end
   end
-
 end
-
-# people = GetRequester.new(https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json)
-# puts people.person_list
