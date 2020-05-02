@@ -5,11 +5,11 @@ require "pry"
 
 class GetRequester
  
-    attr_accessor :url
+  attr_accessor :url
 
-    def initialize(url)
-      @url = url
-    end
+  def initialize(url)
+    @url = url
+  end
  
   def get_response_body
     uri = URI.parse(@url)
@@ -18,7 +18,7 @@ class GetRequester
   end
 
   def parse_json
-   JSON.parse(self.get_response_body)
+    JSON.parse(self.get_response_body)
   end
  
 end
